@@ -1,0 +1,114 @@
+﻿<Vehicles>
+	<Category name="Samochody osobowe">
+		<Description>Pojazdy przeznaczone do przewozu osób.</Description>
+		<SubCategory name="KIA">
+			<Description>Południowo-koreański producent samochodów.</Description>
+			<ParentCompany>Hyundai Motor Group</ParentCompany>
+			<Founded>1944</Founded>
+			<Countries>Korea Południowa, USA, Kanada</Countries>
+			<Elements>
+				<Element>
+					<Model>Sportage</Model>
+					<Year>2021</Year>
+					<EngineCapacity>2.0L</EngineCapacity>
+					<DriveType>AWD</DriveType>
+				</Element>
+				<Element>
+					<Model>Optima</Model>
+					<Year>2020</Year>
+					<EngineCapacity>2.4L</EngineCapacity>
+					<DriveType>FWD</DriveType>
+				</Element>
+				<Element>
+					<Model>Sorento</Model>
+					<Year>2022</Year>
+					<EngineCapacity>2.5L</EngineCapacity>
+					<DriveType>AWD</DriveType>
+				</Element>
+			</Elements>
+		</SubCategory>
+		
+		<SubCategory name="Audi">
+			<Description>Niemiecki producent samochodów luksusowych.</Description>
+			<ParentCompany>Volkswagen Group</ParentCompany>
+			<Founded>1909</Founded>
+			<Countries>Niemcy, USA, Kanada</Countries>
+			<Elements>
+				<Element>
+					<Model>A4</Model>
+					<Year>2021</Year>
+					<EngineCapacity>2.0L</EngineCapacity>
+					<DriveType>AWD</DriveType>
+				</Element>
+				<Element>
+					<Model>Q5</Model>
+					<Year>2020</Year>
+					<EngineCapacity>2.0L</EngineCapacity>
+					<DriveType>AWD</DriveType>
+				</Element>
+				<Element>
+					<Model>A6</Model>
+					<Year>2019</Year>
+					<EngineCapacity>3.0L</EngineCapacity>
+					<DriveType>AWD</DriveType>
+				</Element>
+			</Elements>
+		</SubCategory>
+	</Category>
+	<Category name="Ciężarówki">
+		<Description>Pojazdy przeznaczone do przewozu ładunków.</Description>
+		<SubCategory name="Scania">
+			<Description>Szwedzki producent samochodów ciężarowych.</Description>
+			<ParentCompany>Volkswagen Group</ParentCompany>
+			<Founded>1891</Founded>
+			<Countries>Szwecja, USA</Countries>
+			<Elements>
+				<Element>
+					<Model>R450</Model>
+					<Year>2021</Year>
+					<EngineCapacity>12.7L</EngineCapacity>
+					<DriveType>RWD</DriveType>
+				</Element>
+				<Element>
+					<Model>S730</Model>
+					<Year>2020</Year>
+					<EngineCapacity>16.4L</EngineCapacity>
+					<DriveType>RWD</DriveType>
+				</Element>
+				<Element>
+					<Model>P280</Model>
+					<Year>2019</Year>
+					<EngineCapacity>9.3L</EngineCapacity>
+					<DriveType>RWD</DriveType>
+				</Element>
+			</Elements>
+		</SubCategory>
+		
+		<SubCategory name="Iveco">
+			<Description>Włoski producent samochodów ciężarowych.</Description>
+			<ParentCompany>CNH Industrial</ParentCompany>
+			<Founded>1975</Founded>
+			<Countries>Włochy, USA</Countries>
+			<Elements>
+				<Element>
+					<Model>Stralis</Model>
+					<Year>2021</Year>
+					<EngineCapacity>12.9L</EngineCapacity>
+					<DriveType>RWD</DriveType>
+				</Element>
+				<Element>
+					<Model>Trakker</Model>
+					<Year>2020</Year>
+					<EngineCapacity>13.0L</EngineCapacity>
+					<DriveType>AWD</DriveType>
+				</Element>
+				<Element>
+					<Model>Eurocargo</Model>
+					<Year>2019</Year>
+					<EngineCapacity>6.7L</EngineCapacity>
+					<DriveType>RWD</DriveType>
+				</Element>
+			</Elements>
+		</SubCategory>
+	</Category>
+</Vehicles>
